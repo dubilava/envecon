@@ -83,7 +83,7 @@
 \chapter*{Preamble}\label{preamble}}
 \addcontentsline{toc}{chapter}{Preamble}
 
-This is a collection of notes designed to teach Environmental Economics at an undergraduate level. The content (loosely) follows Kolstad (\protect\hyperlink{ref-kolstad2010}{2010}). Different parts of these notes have benefited from teaching material generously shared with me by Matthew Interis, Ariel Ortiz-Bobea, Leslie Martin, and David Stern.
+This is a collection of notes designed to teach Environmental Economics at an undergraduate level. The content (loosely) follows Kolstad (\protect\hyperlink{ref-kolstad2010}{2010}). Parts of these notes have benefited from teaching material generously shared with me by Matthew Interis, Ariel Ortiz-Bobea, Leslie Martin, David Stern, and Rebecca Taylor.
 
 \hypertarget{the-economics-of-environmental-protection}{%
 \chapter{The Economics of Environmental Protection}\label{the-economics-of-environmental-protection}}
@@ -198,16 +198,30 @@ From an array of options, a person will choose an \emph{optimal bundle} of compo
 
 Mathematically: \[\max_{x,e}U(x,e),\;~~\mbox{s.t.}\;~p_{x}x+p_{e}e=M.\] The optimization leads to: \[\frac{MU_x}{MU_e} = \frac{p_x}{p_e}\] where the ratio of the two marginal utilities is referred to as the \emph{marginal rate of substitution}, \(MRS_{x,e}\), which indicates the amount of units of \(e\) a consumer is willing to give up to get a unit of \(x\).
 
-\hypertarget{efficiency-and-pareto-criterion}{%
-\section{Efficiency and Pareto Criterion}\label{efficiency-and-pareto-criterion}}
+\hypertarget{efficiency-in-exchange}{%
+\section{Efficiency in Exchange}\label{efficiency-in-exchange}}
+
+Consider achieving efficiency (in exchange of goods) in a two-person economy. In the illustrated \emph{Edgeworth Box}, any point on the plane represents an allocation of the two goods between the two individuals. The allocations along the contract curve---the dotted line on the graph---are Pareto optimal. For any given endowment (i.e., initial allocation), efficiency can be achieved along an array of points---the contract curve---where indifference curves of the two individuals are tangent to one another.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{envecon_files/figure-latex/edgeworth-1} 
+
+}
+
+\caption{Contract Curve}\label{fig:edgeworth}
+\end{figure}
+
+\hypertarget{social-choice-mechanisms}{%
+\section{Social Choice Mechanisms}\label{social-choice-mechanisms}}
 
 The foregoing discussion helps us understand (or, to some extent, conceptualize) an individual's preferences for a given bundle of market and environmental goods. But how about the society as a whole?
 
-We can examine everyone's preferences, and if all happen to prefer some alternative over all other alternatives, we may conclude that the society as a whole prefers that alternative. This is also known as the \emph{Pareto criterion} for social choice. The Pareto criterion is a minimum standard for social choice.
+We can examine everyone's preferences, and if all happen to prefer some alternative over all other alternatives, we may conclude that the society as a whole prefers that alternative. This is also known as the \emph{Pareto criterion} for social choice.
 
-Allocations on the \emph{Pareto frontier} are efficient, i.e., \emph{Pareto optimal}. Pareto optimality implies an allocation of goods at which it is impossible to make anyone better off, without making someone worse off.
+Allocations on the \emph{Pareto frontier} are efficient, i.e., \emph{Pareto optimal}. Pareto optimality implies an allocation of goods at which it is impossible to make anyone better off, without making someone worse off. Pareto frontier is, in essence, the \emph{contract curve}.
 
-An allocation is inefficient if it is interior to Pareto frontier. In such instance, \emph{Pareto improvement} is possible. Pareto improvement implies an action that harms no one, and benefits at least one individual.
+An allocation is inefficient if it is interior to Pareto frontier. In such instance, a \emph{Pareto improvement} is possible. Pareto improvement implies an action that harms no one, and benefits at least one individual.
 
 \begin{figure}
 
@@ -220,16 +234,46 @@ An allocation is inefficient if it is interior to Pareto frontier. In such insta
 
 In the provided graph, the allocations \(X\), \(Y\), and \(Z\), are inefficient, and only the allocation \(Z\), is efficient. \(Y\), though inefficient, is Pareto improvement over \(X\). In fact, all allocations in the shaded region are Pareto improvements over \(X\).
 
-Pareto frontier can also be seen as the \emph{contract curve}. Consider achieving efficiency (in exchange of goods) in a two-person economy. In the illustrated \emph{Edgeworth Box}, any point on the plane represents an allocation of the two goods between the two individuals. The allocations along the contract curve---the dotted line on the graph---are Pareto optimal. For any given endowment (i.e., initial allocation), efficiency can be achieved along an array of points---the contract curve---where indifference curves of the two individuals are tangent to one another.
+The Pareto criterion is unanimity rule. For allocations \(a\) and \(b\), everyone must prefer the former to the latter for \(a\) to be Pareto preferred to \(b\). Because of this rule, decisions tend to be biased toward status quo, when Pareto criterion is applied to make societal decisions.
 
-\begin{figure}
+An alternative rule---that circumvents the issues associated with Pareto criterion---is \emph{unanimity with side payments}; that is, when member of society are allowed to transfer resources to increase the unanimity of opinion on alternative allocations. This approach, inherently, accounts for the extent to which individuals prefer one option to another. The rule leads to a \emph{potential Pareto improvement}, which implies an action that harms no one, and benefits at least one individual, after a set of net-zero transfers (side payments) have taken place.
 
-{\centering \includegraphics[width=0.8\linewidth]{envecon_files/figure-latex/edgeworth-1} 
+Another mechanism---that relaxes the unanimity rule---is a voting mechanism based on the \emph{majority rule}. For allocations \(a\) and \(b\), if the majority prefers the former to the latter, we conclude that \(a\) is preferred to \(b\), even though there may be people in the society who strongly prefer \(b\) to \(a\).
 
-}
+\hypertarget{social-welfare-functions-and-impossibility-theorem}{%
+\section{Social Welfare Functions and Impossibility Theorem}\label{social-welfare-functions-and-impossibility-theorem}}
 
-\caption{Contract Curve}\label{fig:edgeworth}
-\end{figure}
+A social welfare function is a way of representing societal preferences, akin to a utility function for individual preferences. If \(U_i(a)\) is the utility that a person \(i\) derives from choice \(a\), then \(a\) is said to be socially preferred to \(b\) if \(W[U_i(a):i=1,\ldots,N] > W[U_i(b):i=1,\ldots,N]\), where \(W[\cdot]\) is a social welfare function that summarizes the distribution of individual utilities in the society. Some of the well--known social welfare functions are:
+
+\begin{itemize}
+\tightlist
+\item
+  Utilitarian: \(W(U_i:i=1,\ldots,N) = \sum_i \theta_i U_i;\;~ \theta_i \ge 0, \sum_i\theta_i=1\)
+\item
+  Egalitarian: \(W(U_i:i=1,\ldots,N) = \sum_i U_i-\lambda\sum_i[U_i-\min(U_i)]\)
+\item
+  Rawlsian: \(W(U_i:i=1,\ldots,N) = \min(U_i)\)
+\end{itemize}
+
+For a social choice mechanism to work, it should satisfy the following assumptions:
+
+\begin{itemize}
+\tightlist
+\item
+  Completeness---we should be able to compare alternatives.
+\item
+  Unanimity---if everyone in the society prefers \(a\) to \(b\), then the society should prefer \(a\) to \(b\).
+\item
+  Nondictatorship---no one's preferences should be exactly the same as those of the society.
+\item
+  Universality---any possible individual rankings of alternatives is allowed.
+\item
+  Transitivity---if \(a\) is socially preferred to \(b\), and if \(b\) is socially preferred to \(c\), then \(a\) should be socially preferred to \(c\).
+\item
+  Independence of Irrelevant Alternatives---social preference between two alternates should only depend on people's preferences for these two, regardless of their preferences for any other alternatives.
+\end{itemize}
+
+These are the axioms put forward by Kenneth Arrow. In what became to be known as \emph{Arrow's Impossibility Theorem} he proved that there is no rule satisfying all six assumptions that can convert individual preferences into a social preference ordering.
 
 \hypertarget{market-failure}{%
 \chapter{Market Failure}\label{market-failure}}

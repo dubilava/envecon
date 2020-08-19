@@ -83,7 +83,9 @@
 <li class="chapter" data-level="2" data-path="choice-and-efficiency.html"><a href="choice-and-efficiency.html"><i class="fa fa-check"></i><b>2</b> Choice and Efficiency</a><ul>
 <li class="chapter" data-level="2.1" data-path="choice-and-efficiency.html"><a href="choice-and-efficiency.html#utility-and-indifference-of-choices"><i class="fa fa-check"></i><b>2.1</b> Utility and Indifference of Choices</a></li>
 <li class="chapter" data-level="2.2" data-path="choice-and-efficiency.html"><a href="choice-and-efficiency.html#prices-and-the-optimal-choice"><i class="fa fa-check"></i><b>2.2</b> Prices and the Optimal Choice</a></li>
-<li class="chapter" data-level="2.3" data-path="choice-and-efficiency.html"><a href="choice-and-efficiency.html#efficiency-and-pareto-criterion"><i class="fa fa-check"></i><b>2.3</b> Efficiency and Pareto Criterion</a></li>
+<li class="chapter" data-level="2.3" data-path="choice-and-efficiency.html"><a href="choice-and-efficiency.html#efficiency-in-exchange"><i class="fa fa-check"></i><b>2.3</b> Efficiency in Exchange</a></li>
+<li class="chapter" data-level="2.4" data-path="choice-and-efficiency.html"><a href="choice-and-efficiency.html#social-choice-mechanisms"><i class="fa fa-check"></i><b>2.4</b> Social Choice Mechanisms</a></li>
+<li class="chapter" data-level="2.5" data-path="choice-and-efficiency.html"><a href="choice-and-efficiency.html#social-welfare-functions-and-impossibility-theorem"><i class="fa fa-check"></i><b>2.5</b> Social Welfare Functions and Impossibility Theorem</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="market-failure.html"><a href="market-failure.html"><i class="fa fa-check"></i><b>3</b> Market Failure</a><ul>
 <li class="chapter" data-level="3.1" data-path="market-failure.html"><a href="market-failure.html#externality"><i class="fa fa-check"></i><b>3.1</b> Externality</a></li>
@@ -164,26 +166,51 @@ Figure 2.2: Optimal Bundle
 </div>
 <p>Mathematically: <span class="math display">\[\max_{x,e}U(x,e),\;~~\mbox{s.t.}\;~p_{x}x+p_{e}e=M.\]</span> The optimization leads to: <span class="math display">\[\frac{MU_x}{MU_e} = \frac{p_x}{p_e}\]</span> where the ratio of the two marginal utilities is referred to as the <em>marginal rate of substitution</em>, <span class="math inline">\(MRS_{x,e}\)</span>, which indicates the amount of units of <span class="math inline">\(e\)</span> a consumer is willing to give up to get a unit of <span class="math inline">\(x\)</span>.</p>
 </div>
-<div id="efficiency-and-pareto-criterion" class="section level2">
-<h2><span class="header-section-number">2.3</span> Efficiency and Pareto Criterion</h2>
-<p>The foregoing discussion helps us understand (or, to some extent, conceptualize) an individual’s preferences for a given bundle of market and environmental goods. But how about the society as a whole?</p>
-<p>We can examine everyone’s preferences, and if all happen to prefer some alternative over all other alternatives, we may conclude that the society as a whole prefers that alternative. This is also known as the <em>Pareto criterion</em> for social choice. The Pareto criterion is a minimum standard for social choice.</p>
-<p>Allocations on the <em>Pareto frontier</em> are efficient, i.e., <em>Pareto optimal</em>. Pareto optimality implies an allocation of goods at which it is impossible to make anyone better off, without making someone worse off.</p>
-<p>An allocation is inefficient if it is interior to Pareto frontier. In such instance, <em>Pareto improvement</em> is possible. Pareto improvement implies an action that harms no one, and benefits at least one individual.</p>
-<div class="figure" style="text-align: center"><span id="fig:pareto"></span>
-<img src="envecon_files/figure-html/pareto-1.png" alt="Pareto Frontier" width="80%" />
-<p class="caption">
-Figure 2.3: Pareto Frontier
-</p>
-</div>
-<p>In the provided graph, the allocations <span class="math inline">\(X\)</span>, <span class="math inline">\(Y\)</span>, and <span class="math inline">\(Z\)</span>, are inefficient, and only the allocation <span class="math inline">\(Z\)</span>, is efficient. <span class="math inline">\(Y\)</span>, though inefficient, is Pareto improvement over <span class="math inline">\(X\)</span>. In fact, all allocations in the shaded region are Pareto improvements over <span class="math inline">\(X\)</span>.</p>
-<p>Pareto frontier can also be seen as the <em>contract curve</em>. Consider achieving efficiency (in exchange of goods) in a two-person economy. In the illustrated <em>Edgeworth Box</em>, any point on the plane represents an allocation of the two goods between the two individuals. The allocations along the contract curve—the dotted line on the graph—are Pareto optimal. For any given endowment (i.e., initial allocation), efficiency can be achieved along an array of points—the contract curve—where indifference curves of the two individuals are tangent to one another.</p>
+<div id="efficiency-in-exchange" class="section level2">
+<h2><span class="header-section-number">2.3</span> Efficiency in Exchange</h2>
+<p>Consider achieving efficiency (in exchange of goods) in a two-person economy. In the illustrated <em>Edgeworth Box</em>, any point on the plane represents an allocation of the two goods between the two individuals. The allocations along the contract curve—the dotted line on the graph—are Pareto optimal. For any given endowment (i.e., initial allocation), efficiency can be achieved along an array of points—the contract curve—where indifference curves of the two individuals are tangent to one another.</p>
 <div class="figure" style="text-align: center"><span id="fig:edgeworth"></span>
 <img src="envecon_files/figure-html/edgeworth-1.png" alt="Contract Curve" width="80%" />
 <p class="caption">
-Figure 2.4: Contract Curve
+Figure 2.3: Contract Curve
 </p>
 </div>
+</div>
+<div id="social-choice-mechanisms" class="section level2">
+<h2><span class="header-section-number">2.4</span> Social Choice Mechanisms</h2>
+<p>The foregoing discussion helps us understand (or, to some extent, conceptualize) an individual’s preferences for a given bundle of market and environmental goods. But how about the society as a whole?</p>
+<p>We can examine everyone’s preferences, and if all happen to prefer some alternative over all other alternatives, we may conclude that the society as a whole prefers that alternative. This is also known as the <em>Pareto criterion</em> for social choice.</p>
+<p>Allocations on the <em>Pareto frontier</em> are efficient, i.e., <em>Pareto optimal</em>. Pareto optimality implies an allocation of goods at which it is impossible to make anyone better off, without making someone worse off. Pareto frontier is, in essence, the <em>contract curve</em>.</p>
+<p>An allocation is inefficient if it is interior to Pareto frontier. In such instance, a <em>Pareto improvement</em> is possible. Pareto improvement implies an action that harms no one, and benefits at least one individual.</p>
+<div class="figure" style="text-align: center"><span id="fig:pareto"></span>
+<img src="envecon_files/figure-html/pareto-1.png" alt="Pareto Frontier" width="80%" />
+<p class="caption">
+Figure 2.4: Pareto Frontier
+</p>
+</div>
+<p>In the provided graph, the allocations <span class="math inline">\(X\)</span>, <span class="math inline">\(Y\)</span>, and <span class="math inline">\(Z\)</span>, are inefficient, and only the allocation <span class="math inline">\(Z\)</span>, is efficient. <span class="math inline">\(Y\)</span>, though inefficient, is Pareto improvement over <span class="math inline">\(X\)</span>. In fact, all allocations in the shaded region are Pareto improvements over <span class="math inline">\(X\)</span>.</p>
+<p>The Pareto criterion is unanimity rule. For allocations <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>, everyone must prefer the former to the latter for <span class="math inline">\(a\)</span> to be Pareto preferred to <span class="math inline">\(b\)</span>. Because of this rule, decisions tend to be biased toward status quo, when Pareto criterion is applied to make societal decisions.</p>
+<p>An alternative rule—that circumvents the issues associated with Pareto criterion—is <em>unanimity with side payments</em>; that is, when member of society are allowed to transfer resources to increase the unanimity of opinion on alternative allocations. This approach, inherently, accounts for the extent to which individuals prefer one option to another. The rule leads to a <em>potential Pareto improvement</em>, which implies an action that harms no one, and benefits at least one individual, after a set of net-zero transfers (side payments) have taken place.</p>
+<p>Another mechanism—that relaxes the unanimity rule—is a voting mechanism based on the <em>majority rule</em>. For allocations <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>, if the majority prefers the former to the latter, we conclude that <span class="math inline">\(a\)</span> is preferred to <span class="math inline">\(b\)</span>, even though there may be people in the society who strongly prefer <span class="math inline">\(b\)</span> to <span class="math inline">\(a\)</span>.</p>
+</div>
+<div id="social-welfare-functions-and-impossibility-theorem" class="section level2">
+<h2><span class="header-section-number">2.5</span> Social Welfare Functions and Impossibility Theorem</h2>
+<p>A social welfare function is a way of representing societal preferences, akin to a utility function for individual preferences. If <span class="math inline">\(U_i(a)\)</span> is the utility that a person <span class="math inline">\(i\)</span> derives from choice <span class="math inline">\(a\)</span>, then <span class="math inline">\(a\)</span> is said to be socially preferred to <span class="math inline">\(b\)</span> if <span class="math inline">\(W[U_i(a):i=1,\ldots,N] &gt; W[U_i(b):i=1,\ldots,N]\)</span>, where <span class="math inline">\(W[\cdot]\)</span> is a social welfare function that summarizes the distribution of individual utilities in the society. Some of the well–known social welfare functions are:</p>
+<ul>
+<li>Utilitarian: <span class="math inline">\(W(U_i:i=1,\ldots,N) = \sum_i \theta_i U_i;\;~ \theta_i \ge 0, \sum_i\theta_i=1\)</span></li>
+<li>Egalitarian: <span class="math inline">\(W(U_i:i=1,\ldots,N) = \sum_i U_i-\lambda\sum_i[U_i-\min(U_i)]\)</span></li>
+<li>Rawlsian: <span class="math inline">\(W(U_i:i=1,\ldots,N) = \min(U_i)\)</span></li>
+</ul>
+<p>For a social choice mechanism to work, it should satisfy the following assumptions:</p>
+<ul>
+<li>Completeness—we should be able to compare alternatives.</li>
+<li>Unanimity—if everyone in the society prefers <span class="math inline">\(a\)</span> to <span class="math inline">\(b\)</span>, then the society should prefer <span class="math inline">\(a\)</span> to <span class="math inline">\(b\)</span>.</li>
+<li>Nondictatorship—no one’s preferences should be exactly the same as those of the society.</li>
+<li>Universality—any possible individual rankings of alternatives is allowed.</li>
+<li>Transitivity—if <span class="math inline">\(a\)</span> is socially preferred to <span class="math inline">\(b\)</span>, and if <span class="math inline">\(b\)</span> is socially preferred to <span class="math inline">\(c\)</span>, then <span class="math inline">\(a\)</span> should be socially preferred to <span class="math inline">\(c\)</span>.</li>
+<li>Independence of Irrelevant Alternatives—social preference between two alternates should only depend on people’s preferences for these two, regardless of their preferences for any other alternatives.</li>
+</ul>
+<p>These are the axioms put forward by Kenneth Arrow. In what became to be known as <em>Arrow’s Impossibility Theorem</em> he proved that there is no rule satisfying all six assumptions that can convert individual preferences into a social preference ordering.</p>
 
 </div>
 </div>
