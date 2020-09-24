@@ -114,7 +114,9 @@
 <li class="chapter" data-level="6.1" data-path="environmental-regulation.html"><a href="environmental-regulation.html#rationale-for-regulation"><i class="fa fa-check"></i><b>6.1</b> Rationale for Regulation</a></li>
 <li class="chapter" data-level="6.2" data-path="environmental-regulation.html"><a href="environmental-regulation.html#prescriptive-regulation"><i class="fa fa-check"></i><b>6.2</b> Prescriptive Regulation</a></li>
 <li class="chapter" data-level="6.3" data-path="environmental-regulation.html"><a href="environmental-regulation.html#incentivebased-regulation"><i class="fa fa-check"></i><b>6.3</b> Incentive–Based Regulation</a></li>
-<li class="chapter" data-level="6.4" data-path="environmental-regulation.html"><a href="environmental-regulation.html#pigovian-fees"><i class="fa fa-check"></i><b>6.4</b> Pigovian Fees</a></li>
+<li class="chapter" data-level="6.4" data-path="environmental-regulation.html"><a href="environmental-regulation.html#marketable-permits"><i class="fa fa-check"></i><b>6.4</b> Marketable Permits</a></li>
+<li class="chapter" data-level="6.5" data-path="environmental-regulation.html"><a href="environmental-regulation.html#emission-fees"><i class="fa fa-check"></i><b>6.5</b> Emission Fees</a></li>
+<li class="chapter" data-level="6.6" data-path="environmental-regulation.html"><a href="environmental-regulation.html#pigovian-fees"><i class="fa fa-check"></i><b>6.6</b> Pigovian Fees</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="regulation-with-limited-information.html"><a href="regulation-with-limited-information.html"><i class="fa fa-check"></i><b>7</b> Regulation with Limited Information</a><ul>
 <li class="chapter" data-level="7.1" data-path="regulation-with-limited-information.html"><a href="regulation-with-limited-information.html#incentives-in-environmental-regulation"><i class="fa fa-check"></i><b>7.1</b> Incentives in Environmental Regulation</a></li>
@@ -204,14 +206,40 @@
 <li>political challenges to instituting emission fees, as they, in essence, facilitate the wealth transfer from firms to the government.</li>
 </ul>
 </div>
-<div id="pigovian-fees" class="section level2">
-<h2><span class="header-section-number">6.4</span> Pigovian Fees</h2>
+<div id="marketable-permits" class="section level2">
+<h2><span class="header-section-number">6.4</span> Marketable Permits</h2>
+<p>The virtue of marketable permits is that no matter how they are initially allocated, after trading, the equimarginal principle automatically holds. The following graph illustrates this.</p>
+<div class="figure" style="text-align: center"><span id="fig:permits"></span>
+<img src="envecon_files/figure-html/permits-1.png" alt="Marketable Permits" width="80%" />
+<p class="caption">
+Figure 6.1: Marketable Permits
+</p>
+</div>
+<p>The permits can be allocated for free, or being auctioned, with the revenue going to the government.</p>
+</div>
+<div id="emission-fees" class="section level2">
+<h2><span class="header-section-number">6.5</span> Emission Fees</h2>
 <p>Normally, consumer preferences for goods are communicated to producers through the price system. This system is “broken” in the case of environmental goods (or, rather, bads), because polluters’ production function does not account for the damage caused by their emissions. A way to correct this is to establish an <em>emission fee</em>—paid by a polluter to a regulatory entity for every unit of emission.</p>
 <p>Consider a firm that produces some good, <span class="math inline">\(x\)</span>, and in the process emits pollution, <span class="math inline">\(e\)</span>. Let <span class="math inline">\(C(e)\)</span>, such that <span class="math inline">\(C&#39;(e)&lt;0\)</span>, denote the firm’s costs for emission abatement. That is, the firm’s costs (or efforts) to reduce pollution increase with the emission abatement. Further, let <span class="math inline">\(p\)</span> be the emission fee, established by the regulator. So, the payment from the polluter to the regulator is <span class="math inline">\(pe\)</span>. Total emission–related costs for the firm, then, is given by the sum of the abatement costs and the payment associated with <span class="math inline">\(e\)</span> units of emission: <span class="math display">\[TC(e) = C(e)+pe.\]</span> It then follows that at the optimum: <span class="math display">\[p=-C&#39;(e^*) \equiv MS(e^*),\]</span> where <span class="math inline">\(MS(e)\)</span> denotes the marginal savings from emitting one more unit of pollution.</p>
 <p>The foregoing indicates that when faced with an emission fee, firms will abate pollution up to the point where the marginal savings (or marginal cost of abatement) is equal to the emission fee. Note that in this instance, the equimarginal principle automatically holds: each firm sets their marginal cost of abatement equal to the same emission fee.</p>
+</div>
+<div id="pigovian-fees" class="section level2">
+<h2><span class="header-section-number">6.6</span> Pigovian Fees</h2>
 <p>A special kind of emission fee, which aims to restore Pareto optimality in the case of market failure, is known as the <em>Pigovian fee</em>, after the English economist Arthur C. Pigou. In particular, a Pigovian fee is an emission fee that is exactly equal to the aggregate marginal damage caused by pollution when evaluated at the optimal level of pollution.</p>
-<p>Suppose a total of <span class="math inline">\(n\)</span> individuals are adversely affected from the pollution emitted by a firm. For person <span class="math inline">\(i\)</span>, the damage from pollution is <span class="math inline">\(D_i(e)\)</span>, and the total damage is given by the vertical sum of individual damage functions: <span class="math display">\[D(e) = \sum_{i=1}^{n}D_i(e).\]</span> The efficient amount of pollution is the amount that minimizes the sum of costs and damages from pollution. So, at the optimum: <span class="math display">\[MD(e^*) = MS(e^*).\]</span> The emission fee associated with this optimal level of pollution is the Pigovian fee. That is, the Pigovian fee is not just any emission fee; it is, indeed, the marginal savings from pollution at the optimal level of pollution.</p>
+<p>With multiple victims of pollution, the total damage is given by the vertical sum of individual damage functions: <span class="math display">\[D(e) = \sum_{i=1}^{n}D_i(e),\]</span> where <span class="math inline">\(n\)</span> denotes the total number of people who are adversely affected from the pollution emitted by a firm. The efficient amount of pollution is the amount that minimizes the sum of costs and damages from pollution. So, at the optimum: <span class="math display">\[MD(e^*) = MS(e^*).\]</span> The emission fee associated with this optimal level of pollution is the Pigovian fee. That is, the Pigovian fee is not just any emission fee; it is, indeed, the marginal savings from pollution at the optimal level of pollution.</p>
+<div class="figure" style="text-align: center"><span id="fig:pigou1"></span>
+<img src="envecon_files/figure-html/pigou1-1.png" alt="Optimal Pollution" width="80%" />
+<p class="caption">
+Figure 6.2: Optimal Pollution
+</p>
+</div>
 <p>With multiple polluters, we typically assume that they are sharing the obligation of emission abatement in an efficient manner. The aggregate marginal savings is the horizontal sum of the individual marginal savings. Thus, for a given emission fee, the aggregate marginal savings tells us how much of pollution will be emitted in total, while the individual marginal savings tell us how much each firm will contribute to that total.</p>
+<div class="figure" style="text-align: center"><span id="fig:pigou2"></span>
+<img src="envecon_files/figure-html/pigou2-1.png" alt="Individual Pollution" width="80%" />
+<p class="caption">
+Figure 6.3: Individual Pollution
+</p>
+</div>
 <!-- ## Fees vs Subsidies -->
 <!-- An alternative mechanism to motivate firms to pollute less is providing them with subsidies to reduce pollution. Is making polluters pay emission fees (taxes) equivalent to paying firms to reduce pollution (subsidies)? -->
 <!-- Taxes increases firm's production costs. Therefore, they also raise average costs, and shift the marginal cost curve leftward. Subsidies also shift of the marginal cost curve leftward, but unlike taxes, they lower average costs. -->
