@@ -693,16 +693,16 @@ The permits can be allocated for free, or being auctioned, with the revenue goin
 
 Normally, consumer preferences for goods are communicated to producers through the price system. This system is ``broken'' in the case of environmental goods (or, rather, bads), because polluters' production function does not account for the damage caused by their emissions. A way to correct this is to establish an \emph{emission fee}---paid by a polluter to a regulatory entity for every unit of emission.
 
-Consider a firm that produces some good, \(x\), and in the process emits pollution, \(e\). Let \(C(e)\), such that \(C'(e)<0\), denote the firm's costs for emission abatement. That is, the firm's costs (or efforts) to reduce pollution increase with the emission abatement. Further, let \(p\) be the emission fee, established by the regulator. So, the payment from the polluter to the regulator is \(pe\). Total emission--related costs for the firm, then, is given by the sum of the abatement costs and the payment associated with \(e\) units of emission: \[TC(e) = C(e)+pe.\] It then follows that at the optimum: \[p=-C'(e^*) \equiv MS(e^*),\] where \(MS(e)\) denotes the marginal savings from emitting one more unit of pollution.
+Consider a firm that produces some good, \(q\), and in the process emits pollution, \(e\). Let \(C(e)\), such that \(MC(e)<0\), denote the firm's costs for emission abatement. That is, the firm's costs (or efforts) to reduce pollution increase with the emission abatement. Further, let \(\tau\) be the emission fee, established by the regulator. So, the payment from the polluter to the regulator is \(\tau e\). Total emission--related costs for the firm, then, is given by the sum of the abatement costs and the payment associated with \(e\) units of emission: \[TC(e) = C(e)+\tau e.\] It then follows that at the optimum: \[\tau=-MC(e^*) \equiv MS(e^*),\] where \(MS(e)\) denotes the marginal savings from emitting one more unit of pollution.
 
 The foregoing indicates that when faced with an emission fee, firms will abate pollution up to the point where the marginal savings (or marginal cost of abatement) is equal to the emission fee. Note that in this instance, the equimarginal principle automatically holds: each firm sets their marginal cost of abatement equal to the same emission fee.
 
 \hypertarget{pigovian-taxes}{%
 \section{Pigovian Taxes}\label{pigovian-taxes}}
 
-A special kind of emission fee, which aims to restore Pareto optimality in the case of market failure, is known as the \emph{Pigovian tax}, after the English economist Arthur C. Pigou. In particular, a Pigovian tax is an emission fee that is exactly equal to the aggregate marginal damage caused by pollution when evaluated at the optimal level of pollution.
+A special kind of emission fee, which aims to restore Pareto optimum in the case of market failure, is known as the \emph{Pigovian tax}, after the English economist Arthur C. Pigou. In particular, a Pigovian tax is an emission fee that is exactly equal to the aggregate marginal damage caused by pollution when evaluated at the optimal level of pollution.
 
-With multiple victims of pollution, the total damage is given by the vertical sum of individual damage functions: \[D(e) = \sum_{i=1}^{n}D_i(e),\] where \(n\) denotes the total number of people who are adversely affected from the pollution emitted by a firm. The efficient amount of pollution is the amount that minimizes the sum of costs and damages from pollution. So, at the optimum: \[MD(e^*) = MS(e^*).\] The emission fee associated with this optimal level of pollution is the Pigovian tax That is, the Pigovian tax is not just any emission fee; it is, indeed, the marginal savings from pollution at the optimal level of pollution.
+With multiple victims of pollution, the total damage is given by the vertical sum of individual damage functions: \[D(e) = \sum_{i=1}^{n}D_i(e),\] where \(n\) denotes the total number of people who are adversely affected from the pollution emitted by a firm. The efficient amount of pollution is the amount that minimizes the sum of costs and damages from pollution. So, at the optimum: \[MD(e^*) = MS(e^*).\] The emission fee associated with this optimal level of pollution is the Pigovian tax. That is, the Pigovian tax is not just any emission fee; it is, indeed, the marginal savings from pollution at the optimal level of pollution.
 
 \begin{figure}
 
@@ -828,7 +828,7 @@ Recall, the efficient amount of pollution involves equating marginal damages wit
 Recognize that for any source, \(i\), \(MS(e_i) = MD(e_i)\); substitute it into the above equation and divide through by \(a_{i}\) to obtain: \[MS(e_i)/a_{i} = MD(v),\;~~i=1,\ldots,n.\] As it follows, two conditions are necessary for efficiency: (i) normalized marginal savings must be equalized for all sources; and (ii) normalized marginal savings must be equal to the marginal damage.
 
 \hypertarget{ambientdifferentiated-emission-fees}{%
-\subsection{Ambient--Differentiated Emission Fees}\label{ambientdifferentiated-emission-fees}}
+\section{Ambient--Differentiated Emission Fees}\label{ambientdifferentiated-emission-fees}}
 
 When emission fees are imposed, the firms will respond by minimizing their total costs associated with emission, resulting in: \[MS(e_i) = t_i,\;~\forall\;i.\] It then follow that: \[t_i = a_i MD(v)\] and, to hold the equimarginal principle, \[t_i/a_i = t_j/a_j,\;~~\forall\;i,j.\] That is, the emission fees levied on the firms must be equal, after normalizing by the transfer coefficients.
 
@@ -845,7 +845,7 @@ Consider a two-firm scenario, and suppose they have the same marginal savings, b
 \caption{Inefficiency of the Uniform Tax}\label{fig:inefficiency}
 \end{figure}
 
-But if a regulator were to use a uniform tax, \(t_0\), both firms would emit the same amount of pollution, \(e_0\), which will result in efficiency losses depicted by: (1) an area between \(e_0\) and \(e_1\), below \(MS(e)\) and above \(MD(e_1)\); and (2) an area between \(e_0\) and \(e_2\), above \(MS(e)\) and below \(MD(e_2)\). If such uniform fee were to be the regulator's only option, the `optimal' tax would be the one that minimizes the said efficiency losses.
+But if a regulator were to use a uniform tax, \(t_0\), both firms would emit the same amount of pollution, \(e_0\), which will result in efficiency losses depicted by: (1) the area between \(e_0\) and \(e_1\), below \(MS(e)\) and above \(MD(e_1)\); and (2) the area between \(e_0\) and \(e_2\), above \(MS(e)\) and below \(MD(e_2)\). If such uniform fee were to be the regulator's only option, the `optimal' tax would be the one that minimizes the said efficiency losses.
 
 \hypertarget{marketable-ambient-permits}{%
 \section{Marketable Ambient Permits}\label{marketable-ambient-permits}}
@@ -867,6 +867,93 @@ As for permits, within a zone, they are traded on a 1-for-1 basis. Across the zo
 
 \hypertarget{regulation-over-time}{%
 \chapter{Regulation Over Time}\label{regulation-over-time}}
+
+So far we have considered environmental issues and their regulation in a static setting. But pollution can (and usually does) accumulate over time, and may also vary within a given period of time (e.g., time of the day, month of the year, etc.). Moreover, the degree of pollution accumulation over time, as well as variation within a given period of time, can be different across locations.
+
+\hypertarget{stock-pollutants}{%
+\section{Stock Pollutants}\label{stock-pollutants}}
+
+When pollutants accumulate, the damage from emissions today spans into the future periods, when (a portion of) today's emissions are still present in the environment. The pollutants usually get cleansed by the environment, eventually; but the ``eventually'' may be a rather long time horizon.
+
+Pollutants that have a tendency to accumulate over time are known as \emph{stock pollutants}. Consider the following process of accumulation: \[s_t=\beta s_{t-1}+e_t,\] where \(s_t\) is the stock of a pollutant in period \(t\), and \(e_t\) is the emission of the pollutant in a given period; and \(\beta\) denotes the persistence rate of the pollutant, and is bounded between zero and one.
+
+If we iterate backward the pollutant accumulation process, we obtain:
+\[s_t = e_t + \beta e_{t-1} + \beta^2 e_{t-2} + \ldots + \beta^{t-1}e_1 + \beta^t s_0.\]
+Note that if \(\beta=0\), the stock completely disappears from one period to the next. Such a pollutant is known as \emph{pure flow pollutant}. Alternatively, if \(\beta=1\), the pollutant is persistent, in the sense that once in the environment, it does not degrade (disappear) over time.
+
+\hypertarget{efficiency-with-stock-pollutants}{%
+\section{Efficiency with Stock Pollutants}\label{efficiency-with-stock-pollutants}}
+
+Obtaining efficiency with a stock pollutant is somewhat more complicated, as this requires accounting for the marginal damages of pollution that occurs over a period of time. Conceptually, of course, this is still the same as before. For any given time period, \(t\), the net costs of emission, \(NC(e_t)\), are given by:
+\[NC(e_t) = \sum_{t=1}^{\infty}\delta^{t-1}\left[C_t(e_t)+D_t(s_t)\right],\]
+where \(\delta\) is the discount factor (to be discussed below, but for now simply assume that \(0<\delta<1\)).
+
+We calculate the optimal pollution emission at any point in time, say in period 1, in a `usual' way (of taking the derivative of the net cost function and equating it to zero):
+\[\frac{\partial NC(e_t)}{\partial e_1} = \sum_{t=1}^{\infty}\delta^{t-1}\left[\frac{\partial C_t(e_t)}{\partial e_1}+\frac{\partial D_t(s_t)}{\partial s_t}\frac{\partial s_t}{\partial e_1}\right] = 0.\]
+Observe that:
+\[\begin{aligned}
+\frac{\partial C_t(e_t)}{\partial e_1} &= \left\{
+    \begin{array}{ll}
+      MC_t(e_1) \equiv -MS_t(e_1)\;~~\text{when}~~t = 1 \\
+      0\;~~\text{otherwise};
+    \end{array}
+  \right.\\
+  \frac{\partial D_t(s_t)}{\partial s_t} &= MD_t(s_t); \text{and}\\
+  \frac{\partial s_t}{\partial e_1} &= \beta^{t-1}.
+\end{aligned}\]
+
+Putting all these together yields the following: \[MS_1(e_1) = \sum_{t=1}^{\infty}\delta^{t-1}\beta^{t-1}MD_t(s_t)\]
+
+That is, for efficiency, we should set the marginal savings from emitting a unit of pollution today equal to the sum of marginal damages that may occur in the future, which are adjusted by the discount factor and the persistence rate of the pollutant.
+
+\hypertarget{discounting}{%
+\section{Discounting}\label{discounting}}
+
+Discounting pertains to people's preferences over time. Generally, people prefer benefits now rather than later (would someone rather pay you \$100 now or a year from now?).
+Also, people prefer to delay incurring costs (would you rather pay someone \$100 now or a year from now?). Conceivably, there is some offer at which you would be indifferent between the current payment (of \$100) and the future payment (of, say, \$110 or some other value that is greater than \$100). The present value of a future amount of net benefits is the amount which, if the person received it today, would make him just as well off as if he waited to receive those net benefits in the future. This indifference between two net benefits separated by time determines an individual's discount factor. Disount factor is a number indicating how much a person discounts (net) benefits that accrue in the future relative to the present.
+
+For example, if someone is indifferent between receiving \$100 today and \$110 one year from now, we would say the equivalent to this person of \$110 one year from now is \$100 today.
+So, when calculating the person's discount factor, we ask ourselves by what ``factor'' we must multiply the future period's net benefit, in order to make it equal the current time period's net benefit. Mathematically, \[\$100=\delta\times\$110 \Rightarrow \delta \approx 0.91\] where \(\delta\) denotes the discount factor. A lower discount factor signals that a person values current net benefits (relative to receiving these same net benefits later) more than a person with a higher discount factor (relative to receiving those same net benefits later). The discount rate, \(\rho\), is related to the discount factor, \(\delta\), by the following relationship: \[\delta = 1/(1+\rho)\]
+
+\hypertarget{benefit-cost-analysis}{%
+\section{Benefit-Cost Analysis}\label{benefit-cost-analysis}}
+
+One of the primary tools for deciding the appropriateness of a government intervention in the economy is benefit-cost analysis. The basic idea of this tool is simple: find the project that gives the largest total surplus (equivalent to total benefits less total costs). The implementation is less trivial: the usual problem is difficulty in quantifying some of the benefits or costs.
+Benefit-cost analysis has its supporters (who believe that it facilitates decision-making) and skeptics (who don't believe that environmental issues can be summarized in dollar amount).
+
+Benefit-cost analysis has two uses:
+
+\begin{itemize}
+\tightlist
+\item
+  to judge the desirability of a proposed action before it is enacted; and
+\item
+  to assess the performance of a past action after it has been enacted.
+\end{itemize}
+
+Costs and benefits often occur at various points in time. For example, we may implement a program (and spend money) to reduce carbon dioxide emissions today, but see the benefits of this program only decades (or perhaps even centuries) into the future.
+To evaluate such an inter-temporal mixture of costs and benefits we turn to discounting (again).
+
+Consider a stream of costs \(\{C_0,C_1,\ldots,C_T\}\) and benefits \(\{B_0,B_1,\ldots,B_T\}\) during the period of time indexed by \(t=0,1,\ldots,T\), where \(t=0\) denotes the current period.
+A net present value (NPV) of these streams is given by:
+\[NPV = \sum_{t=0}^{T}\delta^t\left(B_t-C_t\right),\]
+where \(\beta^t\) is the discount factor associated with period \(t\).
+
+Several factors will thus impact the decision making: actual values of the benefits and costs; the timing of the benefits and costs occurrence; the length of the project; the assumed discount rate. In practice, a decision-maker (or a researcher) has several options to decide on the value of the discount rate:
+
+\begin{itemize}
+\tightlist
+\item
+  set it equal to the interest rate;
+\item
+  use the rate at which the government borrows money;
+\item
+  use the social opportunity cost of capital;
+\item
+  get an insight from experiments.
+\end{itemize}
+
+Choosing the discount rate is thus largely a judgment call, and it is quite possible that the choice of discount rate can make a big difference.
 
 \hypertarget{climate-change-and-adaptation}{%
 \chapter{Climate Change and Adaptation}\label{climate-change-and-adaptation}}
